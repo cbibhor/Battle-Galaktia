@@ -1,0 +1,48 @@
+BATTLE GALAKTIA
+
+Battle Galaktia is a classic 2D space shooter game. Guide your spaceship through the infinite space battling with alien ships firing with single canon or double canon or both.
+
+
+Development:
+
+The project was made with an objective to learn and demonstrate 2D animations and transformations in OpenGL. It is written in C++ language and can be easily converted to C as no classes has been used. IDE used for developing the project was Visual Studio 2012.
+
+
+Installation:
+
+On windows, download 'Battle Galaktia(for windows).zip', extract and open .exe file. Freeglut.dll is provided in the zip file.
+
+On Linux,
+1. Install OpenGL using the following command: sudo apt-get install freeglut3 freeglut3-dev mesa-utils
+2. Open the main.cpp file and compile it with: gcc main.cpp -lGL -lGLU -lglut -lstdc++
+
+
+Project Highlights:
+
+1. All basic OpenGL functions used.
+2. Double Buffering to provide smooth flicker free 2D animation. (FPS=60)
+3. Two collision detection algorithms used in move.cpp to detect collision between alienship and bullets, and spaceship and alienship.
+4. Store and read highscore from file.
+5. Game can be paused and resumed.
+6. Keyboard controls for both left and right handers.
+7. Four-directional movement of spaceship and single and double firing canons.
+8. Random generation of position of alienships.
+
+
+Controls:
+
+Enter key: start game
+Up key / 'w': move ship up
+Left key / 'a': move ship left
+Down key / 's': move ship down
+Right key / 'd': move ship right
+Spacebar: single fire
+'B'/'b': double fire
+'P'/'p': pause game
+'R'/'r': resume game
+Esc key: quit game
+
+
+Developer:
+
+Bibhor Chauhan (cbibhor@gmail.com)
