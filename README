@@ -21,7 +21,7 @@ Project Highlights:
 
 1. All basic OpenGL functions used.
 2. Double Buffering to provide smooth flicker free 2D animation. (FPS=60)
-3. Two collision detection algorithms used in move.cpp to detect collision between alienship and bullets, and spaceship and alienship.
+3. Two collision detection algorithms used in moveutility.h to detect collision between alienship and bullets, and spaceship and alienship.
 4. Store and read highscore from file.
 5. Game can be paused and resumed.
 6. Keyboard controls for both left and right handers.
