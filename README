@@ -5,7 +5,7 @@ Battle Galaktia is a classic 2D space shooter game. Guide your spaceship through
 
 Development:
 
-The project was made with an objective to learn and demonstrate 2D animations and transformations in OpenGL. It is written in C++ language and can be easily converted to C as no classes has been used. IDE used for developing the project was Visual Studio 2012.
+The project was made with an objective to learn and demonstrate 2D animations and transformations in OpenGL. It is written in C++ language. IDE used for developing the project was Visual Studio 2012.
 
 
 Installation:
